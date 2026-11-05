@@ -113,7 +113,7 @@
       "url": "https://cdn.jsdelivr.net/gh/vbskycn/iptv@master/tv/iptv4.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+      "epg": "http://epg.51zmt.top:8000/e.xml"
     },
     {
       "name": "⚡自动测速┃备用",
@@ -121,7 +121,7 @@
       "url": "https://cdn.jsdelivr.net/gh/4yt1k/m3u-autoupdate@master/output/result.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+      "epg": "http://epg.51zmt.top:8000/e.xml"
     },
     {
       "name": "⚡咪咕高清┃备用",
@@ -129,7 +129,7 @@
       "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/iptv.m3u",
       "playerType": 1,
       "ua": "AptvPlayer-UA",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+      "epg": "http://epg.51zmt.top:8000/e.xml"
     }
   ]
 }

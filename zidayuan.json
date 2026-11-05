@@ -1,5 +1,5 @@
 {
-  "warningText": "自建直连源·资源站API·失效删除对应条目即可",
+  "warningText": "自建源·点播=资源站API直连 / 直播=公网m3u8·失效删对应条目即可",
   "sites": [
     {
       "key": "bfzyapi",
@@ -105,5 +105,31 @@
   "parses": [],
   "flags": [
     "m3u8"
+  ],
+  "lives": [
+    {
+      "name": "⚡央视卫视┃主力",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/vbskycn/iptv@master/tv/iptv4.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    },
+    {
+      "name": "⚡自动测速┃备用",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/4yt1k/m3u-autoupdate@master/output/result.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    },
+    {
+      "name": "⚡咪咕高清┃备用",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/iptv.m3u",
+      "playerType": 1,
+      "ua": "AptvPlayer-UA",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    }
   ]
 }
